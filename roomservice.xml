@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote name="omnirom" fetch="https://github.com/omnirom/" />
 
+  <project name="walter79/android_device_samsung_n5100" path="device/samsung/n5110" remote="github" />
   <project name="LineageOS/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" />
-  <project name="LineageOS/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="LineageOS/android_device_samsung_n5120" path="device/samsung/n5110" remote="github" />
+  <project name="walter79/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="LineageOS/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" />
   <project name="LineageOS/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
