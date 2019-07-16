@@ -13,6 +13,6 @@
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />  
-  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />  
-  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom" revision="android-7.1" />  
+  <!--project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" /-->  
+  <!--project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom" revision="android-7.1" /-->  
 </manifest>
