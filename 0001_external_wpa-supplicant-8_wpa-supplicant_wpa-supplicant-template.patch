@@ -1,0 +1,10 @@
+diff --git a/wpa_supplicant_template.conf b/wpa_supplicant_template.conf
+index f3f2a64..d511029 100644
+--- a/wpa_supplicant_template.conf
++++ b/wpa_supplicant_template.conf
+@@ -3,4 +3,4 @@ update_config=1
+ eapol_version=1
+ ap_scan=1
+ fast_reauth=1
+-pmf=1
++pmf=0
