@@ -9,6 +9,7 @@
   <project name="fidoedidoe/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="walter79/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" />
   <project name="fidoedidoe/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+  <project name="LineageOS/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
