@@ -183,3 +183,24 @@ index 2967f07..3cef2b0 100644
  else ifeq ($(KERNEL_ARCH),x86)
  KERNEL_TOOLCHAIN_PREFIX ?= x86_64-linux-androidkernel-
  endif
+diff --git a/build/core/clang/config.mk b/build/core/clang/config.mk
+index 6cc3446..402d99e 100644
+--- a/build/core/clang/config.mk
++++ b/build/core/clang/config.mk
+@@ -90,6 +90,16 @@ CLANG_CONFIG_UNKNOWN_CFLAGS := \
+   -Wunused-but-set-parameter \
+   -Wunused-but-set-variable \
+   -fdiagnostics-color \
++  -fipa-pta \
++  -fsection-anchors \
++  -ftree-loop-im \
++  -ftree-loop-ivcanon \
++  -fgcse-las \
++  -fgcse-sm \
++  -fivopts \
++  -ftracer \
++  -funsafe-loop-optimizations \
++  -fweb \
+   -fdebug-prefix-map=/proc/self/cwd=
+ 
+ # Clang flags for all host rules
