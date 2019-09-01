@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/omnirom/" name="omnirom" />
+  <remote fetch="https://github.com/ArchiDroid/" name="archi" />
+  
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+  <project name="Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="archi" revision="uber-4.9-arm-linux-androideabi" />
 
-  <remote name="omnirom" fetch="https://github.com/omnirom/" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="fidoedidoe/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-linux-androideabi-linaro-7.x-cortex-a9" />
 
   <project name="walter79/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" />
   <project name="LineageOS/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" />
   <project name="LineageOS/android_device_samsung_n5120" path="device/samsung/n5120" remote="github" />
   <project name="fidoedidoe/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="walter79/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" />
-  <project name="fidoedidoe/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1-custom"/>
+  <project name="fidoedidoe/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1-custom" />
   <project name="LineageOS/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />  
-  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />  
-  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom" revision="android-9.0" />  
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
+  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom" revision="android-9.0" />
 </manifest>
