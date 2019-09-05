@@ -1,0 +1,19 @@
+diff --git a/anykernel.sh b/anykernel.sh
+index ce579c30..291b6787 100755
+--- a/anykernel.sh
++++ b/anykernel.sh
+@@ -9,10 +9,10 @@ do.devicecheck=1
+ do.modules=0
+ do.cleanup=1
+ do.cleanuponabort=0
+-device.name1=konawifi
+-device.name2=n5110
+-device.name3=GT-N5110
+-device.name4=konawifixx
++device.name1=kona3g
++device.name2=n5100
++device.name3=GT-N5100
++device.name4=kona3gxx
+ device.name5=
+ supported.versions=7.1.2
+ supported.patchlevels=
