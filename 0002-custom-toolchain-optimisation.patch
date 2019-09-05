@@ -46,7 +46,7 @@ index 510aae5..925d041 100644
 +                        -funsafe-loop-optimizations \
 +                        -fweb \
 +                        -funswitch-loops \
-+                        -Wno-error=array-bounds 
++                        -Wno-error=array-bounds \
 +                        -Wno-error=clobbered \
 +                        -Wno-error=maybe-uninitialized \
 +                        -Wno-error=strict-overflow \
@@ -67,7 +67,7 @@ index 510aae5..925d041 100644
 +                        -funsafe-loop-optimizations \
 +                        -fweb \
 +                        -funswitch-loops \
-+                        -Wno-error=array-bounds
++                        -Wno-error=array-bounds \
 +                        -Wno-error=clobbered \
 +                        -Wno-error=maybe-uninitialized \
 +                        -Wno-error=strict-overflow \
@@ -118,7 +118,7 @@ index 6a1d861..c13f825 100644
 +                        -funsafe-loop-optimizations \
 +                        -fweb \
 +                        -funswitch-loops \
-+                        -Wno-error=array-bounds
++                        -Wno-error=array-bounds \
 +                        -Wno-error=clobbered \
 +                        -Wno-error=maybe-uninitialized \
 +                        -Wno-error=strict-overflow \
@@ -139,7 +139,7 @@ index 6a1d861..c13f825 100644
 +                        -funsafe-loop-optimizations \
 +                        -fweb \
 +                        -funswitch-loops \
-+                        -Wno-error=array-bounds
++                        -Wno-error=array-bounds \
 +                        -Wno-error=clobbered \
 +                        -Wno-error=maybe-uninitialized \
 +                        -Wno-error=strict-overflow \
