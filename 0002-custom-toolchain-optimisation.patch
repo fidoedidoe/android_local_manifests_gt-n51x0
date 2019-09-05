@@ -200,7 +200,7 @@ index 6cc3446..402d99e 100644
 +  -fivopts \
 +  -ftracer \
 +  -funsafe-loop-optimizations \
-+  -fweb \
++  -fweb -fgraphite -fgraphite-identity \
    -fdebug-prefix-map=/proc/self/cwd=
  
  # Clang flags for all host rules
