@@ -7,7 +7,7 @@
   <project name="Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="archi" revision="uber-4.9-arm-linux-androideabi" />
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="fidoedidoe/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-linux-androideabi-linaro-7.x" />
+  <project name="fidoedidoe/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-linux-androideabi-cortex-a9-neon-linaro-7.x" />
 
   <project name="walter79/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" />
   <project name="LineageOS/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" />
