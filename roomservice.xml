@@ -7,14 +7,15 @@
   <project name="Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="archi" revision="uber-4.9-arm-linux-androideabi" />
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="fidoedidoe/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-linux-androideabi-cortex-a9-neon-linaro-7.x" />
+  <project name="fidoedidoe/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-linux-androideabi-cortex-a9-neon-gcc-9.x" />
 
   <project name="walter79/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" />
   <project name="LineageOS/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" />
   <project name="LineageOS/android_device_samsung_n5120" path="device/samsung/n5120" remote="github" />
   <project name="fidoedidoe/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="walter79/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" />
-  <project name="fidoedidoe/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1-custom" />
+  <project name="fidoedidoe/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1-custom-zzmoove" />
+  <project name="fidoedidoe/Anykernel3" path="kernel/samsung/smdk4412/anyKernel3" remote="github" revision="gt-n51x0"/>
   <project name="LineageOS/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
