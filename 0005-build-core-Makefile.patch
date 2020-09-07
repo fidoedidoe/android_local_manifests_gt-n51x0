@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index da9a1b6..f45e751 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2219,7 +2219,7 @@ $(INTERNAL_OTA_PACKAGE_TARGET): $(BUILT_TARGET_FILES_PACKAGE)
+           $(if $(OEM_OTA_CONFIG), -o $(OEM_OTA_CONFIG)) \
+           $(BUILT_TARGET_FILES_PACKAGE) $@
+ 
+-CM_TARGET_PACKAGE := $(PRODUCT_OUT)/lineage-$(LINEAGE_VERSION).zip
++CM_TARGET_PACKAGE := $(PRODUCT_OUT)/los-$(LINEAGE_VERSION).zip
+ 
+ .PHONY: otapackage bacon
+ otapackage: $(INTERNAL_OTA_PACKAGE_TARGET)
