@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://github.com/TeamWin/" name="teamwin" />
   <remote fetch="https://github.com/ArchiDroid/" name="archi" />
-  <project name="fidoedidoe/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" />
-  <project name="ComicoTeam/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="fidoedidoe/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="lineage-16.0" />
+  <project name="rINanDO/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="walter79/android_device_samsung_kona-common" path="device/samsung/kona-common" remote="github" revision="cm-14.1" />
   <!--project name="LineageOS/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" /-->
   <!--project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" /-->
@@ -12,14 +12,14 @@
   <project name="LineageOS/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github"/>
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
   <project name="rINanDO/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
   <!--project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" /-->
   <!--project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="teamwin" revision="android-9.0" /-->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 
-  <!--remove-project name="LineageOS/android_build_soong" />
-  <project name="rINanDO/android_build_soong" path="build/soong" remote="github" revision="lineage-16.0" /-->
+  <remove-project name="LineageOS/android_build_soong" />
+  <project name="rINanDO/android_build_soong" path="build/soong" remote="github" revision="lineage-16.0" />
 
 </manifest>
